@@ -68,3 +68,9 @@ excalidraw-monorepo/
 Available skills in this project:
 
 - **creating-excalidraw-components** (`.agents/skills/`) — Create React components following Excalidraw's patterns and conventions
+- **architecture-impact-check** (`.agents/skills/`) — Evaluate change impact on state/rendering invariants and package boundaries, with a detailed architecture checklist in `references/`
+- **testing-workflow-automation** (`.agents/skills/`) — Run consistent verification flows using project commands, including utility script support in `scripts/`
+- **pr-review-excalidraw** (`.agents/skills/`) — Review diffs/PRs for regressions, architecture risk, and test coverage using severity-first findings
+
+Skill validation documentation:
+- `.agents/skills/SKILL-TESTING.md`
